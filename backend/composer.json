@@ -1,0 +1,22 @@
+{
+    "name": "vibe/financial-tracker",
+    "description": "A vibe coding financial tracker backend",
+    "type": "project",
+    "require": {
+        "php": "^8.2",
+        "vlucas/phpdotenv": "^5.5",
+        "promphp/prometheus_client_php": "^2.6",
+        "predis/predis": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vibe Coder",
+            "email": "coder@vibe.com"
+        }
+    ]
+}
